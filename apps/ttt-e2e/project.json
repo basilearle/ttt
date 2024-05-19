@@ -1,0 +1,10 @@
+{
+  "name": "ttt-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/ttt-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["ttt"],
+  "// targets": "to see all targets run: nx show project ttt-e2e --web",
+  "targets": {}
+}
