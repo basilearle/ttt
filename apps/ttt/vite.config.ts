@@ -34,6 +34,8 @@ export default defineConfig({
 
   test: {
     globals: true,
+    setupFiles: ['./setupTests.ts'],
+
     cache: {
       dir: '../../node_modules/.vitest/apps/ttt',
     },
